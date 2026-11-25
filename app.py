@@ -138,7 +138,7 @@ def neural_style_transfer(content_img, style_img, vgg_model,
     - Style: The textures and colors from the style image
     
     The algorithm learns to synthesize new patterns by optimizing pixel values through
-    backpropagation, making it a true generative AI approach.
+    backpropagation to adjust the output image.
     """
     
     # Extract features
